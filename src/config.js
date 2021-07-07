@@ -62,6 +62,20 @@ export default
                             "endpoint": "wss://karura.api.onfinality.io/public-ws"
                         }
                     ]
+                },
+                {
+                    "name": "Shiden",
+                    "target": 12,
+                    "providers": [
+                        {
+                            "name": "Stake Tech.",
+                            "endpoint": "wss://rpc.shiden.plasmnet.io"
+                        },
+                        {
+                            "name": "OnFinality",
+                            "endpoint": "wss://shiden.api.onfinality.io/public-ws"
+                        }
+                    ]
                 }
             ]
         }

@@ -76,6 +76,20 @@ export default
                             "endpoint": "wss://shiden.api.onfinality.io/public-ws"
                         }
                     ]
+                },
+                {
+                    "name": "Khala",
+                    "target": 12,
+                    "providers": [
+                        {
+                            "name": "Phala",
+                            "endpoint": "wss://khala.phala.network/ws"
+                        },
+                        {
+                            "name": "OnFinality",
+                            "endpoint": "wss://khala.api.onfinality.io/public-ws"
+                        }
+                    ]
                 }
             ]
         }

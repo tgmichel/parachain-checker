@@ -30,6 +30,10 @@ export default
                         {
                             "name": "OnFinality",
                             "endpoint": "wss://moonriver.api.onfinality.io/public-ws"
+                        },
+                        {
+                            "name": "Patract",
+                            "endpoint": "wss://moonriver.kusama.elara.patract.io"
                         }
                     ]
                 },
